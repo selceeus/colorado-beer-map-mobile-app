@@ -1,1 +1,3 @@
-# colorado-beer-map-mobile-app
+# Colorado Beer Map - Mobile App
+
+Built with React Native
