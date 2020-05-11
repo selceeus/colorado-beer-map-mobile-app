@@ -30,16 +30,24 @@ export default function App() {
                 let iconName;
 
                 if( route.name === 'Home') {
-                  iconName = focused ? 'ios-home' : 'ios-home-outline'
+                  iconName = focused 
+                  ? 'ios-home' 
+                  : 'ios-home-outline';
                 }
                 else if( route.name === 'Map') {
-                  iconName = focused ? 'ios-map' : 'ios-map-outline';
+                  iconName = focused 
+                    ? 'ios-map' 
+                    : 'ios-map-outline';
                 }
                 else if( route.name === 'Listings' ) {
-                  iconName = focused ? 'ios-list-box' : 'ios-list';
+                  iconName = focused 
+                    ? 'ios-list-box' 
+                    : 'ios-list';
                 }
                 else if( route.name === 'Contact' ) {
-                  iconName = focused ? 'ios-information-circle' : 'ios-information-circle-outline';
+                  iconName = focused 
+                    ? 'md-information-circle' 
+                    : 'ios-information-circle-outline';
                 }
 
                 // You can return any component that you like here!
