@@ -30,14 +30,10 @@ export default function App() {
                 let iconName;
 
                 if( route.name === 'Home') {
-                  iconName = focused 
-                  ? 'ios-home' 
-                  : 'ios-home-outline';
+                  iconName = 'ios-home'  
                 }
                 else if( route.name === 'Map') {
-                  iconName = focused 
-                    ? 'ios-map' 
-                    : 'ios-map-outline';
+                  iconName = 'ios-map' 
                 }
                 else if( route.name === 'Listings' ) {
                   iconName = focused 
